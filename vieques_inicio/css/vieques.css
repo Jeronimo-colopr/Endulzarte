@@ -311,3 +311,84 @@ nav a:hover {
 .widget-ruta__info {
     font-weight: normal;
 }
+
+/** Gastronomía **/
+.gastronomia__imagen {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gastronomia__imagen img {
+    width: 80%;
+}
+
+.restaurante {
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--gris);
+}
+
+@media (min-width: 768px) {
+    .restaurante {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.restaurante:last-of-type {
+    border: none;
+}
+
+.restaurante__informacion {
+    font-size: 2rem;
+}
+
+/** Contacto **/
+.contacto-bg {
+    background-image: url(../img/contacto.jpg);
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+    padding: 1rem;
+}
+
+.campo__field--textarea {
+    height: 20rem;
+}
+
+/** Historia **/
+.bandera {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.bandera img {
+    width: 40%;
+}
+
+.video {
+    margin-top: 3rem;
+}
+
+.video video {
+    width: 100%;
+}
