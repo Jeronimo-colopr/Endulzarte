@@ -57,6 +57,7 @@ nav a:hover {
 .hero img {
     width: 100%;
     height: auto;
+    size-adjust: 25%;
 }
 
 .hero-texto {
@@ -176,4 +177,52 @@ footer {
     .contenido {
         padding: 15px;
     }
+}
+
+#precios {
+    text-align: center;
+    padding: 40px;
+}
+
+.tabla-precios {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.tabla-precios th {
+    background-color: #FCD116; /* Amarillo Colombia */
+    color: black;
+    padding: 12px;
+}
+
+.tabla-precios td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tabla-precios tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-precios tr:hover {
+    background-color: #e6f2ff;
+}
+
+.navegacion {
+    background-color: #003893; /* Azul Colombia */
+    padding: 15px;
+    text-align: center;
+}
+
+.enlace_nav {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlace_nav:hover {
+    color: #FCD116; /* Amarillo Colombia */
 }
